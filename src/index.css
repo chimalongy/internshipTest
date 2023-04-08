@@ -1,0 +1,516 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@200&family=League+Spartan&family=Rubik:wght@300&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+width: 100%;
+left: 0px;
+top: 0px;
+ background: #091242;
+color:white;
+display: flex;
+align-items: center;
+padding:30px;
+}
+
+.nav-container{
+  width:70%;
+  margin: auto;
+  display:flex;
+}
+
+
+.nav-left{
+  width: 30%;
+  display:flex;
+  align-items: center;
+  gap:8px;
+}
+
+.website-logo{
+ color: #FFB82B;
+ font-size:20px;
+}
+.website-name{
+  font-family:rubik;
+  font-size:20px;
+  font-weight: bold;
+}
+
+.nav-right{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:Krub;
+}
+
+.nav-icon-container{
+  display: flex;
+  justify-content: space-evenly;
+  gap:8px;
+}
+
+.nav-icon-holder{
+width: 50px;
+height: 50px;
+border-radius: 50%;
+background-color: #111C55;
+border: 2px solid #273270;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.nav-icon{
+  color:#F6B426;
+
+}
+
+.nav-icontext{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 12px;
+}
+
+/*SECTION 1*/
+
+.section-container{
+  background: url(../public/background1.svg);
+  height: 650px;
+  background-position: center;
+}
+.main-menu{
+background-color: #09124240;
+display: flex;
+justify-content: center;
+}
+
+.menu-holder{
+  width:70%;
+ 
+  display: flex;
+  font-family: Krub;
+}
+.menu-holder-left{
+  width:70%;
+  display: flex;
+  align-items: center;
+}
+.menu-holder-left>ul{
+  
+  list-style-type:none;
+  display: flex;
+  gap: 40px;
+  color: white;
+  
+  font-weight: bold;
+}
+
+.menu-holder-right{
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials-holder>ul{
+  display: flex;
+  align-items: center;
+ 
+  list-style-type: none;
+  gap: 10px;
+  padding: 12px;
+  color: white;
+}
+
+.request-quote{
+ 
+  background-color: white;
+  padding: 12px;
+  font-weight: bold;
+  color:#23212A;
+
+}
+
+
+
+.section-content-container{
+  display: flex;
+  justify-content: center;
+margin-top: 100px;
+}
+
+
+
+.section-content-holder{
+   width:70%;
+}
+
+.website-heading{
+  display: inline-block;
+  height: 213px;
+  width: 400px;
+  
+  color:white;
+  text-align: left;
+  
+}
+
+.website-heading>h1{
+  font-size: 48px;
+  font-weight: bold;
+  font-family: Rubik;
+  margin-top: 10px;
+}
+/*FOR PAGE BULLETS*/
+.page-bullet {
+  display: flex;
+  font-family: Rubik;
+}
+
+
+.fancy-yellow{
+  width:1%;
+  background-color: yellow;
+  display: inline;
+  font-weight: bold;
+  color: yellow;
+  
+}
+
+.bullet-text{
+font-family: Rubik;
+font-size: 14px;
+font-weight: bold;
+line-height: 17px;
+text-align: left;
+display: flex;
+font-size: 18px;
+background-color:#041C3780;
+color: white;
+padding: 2px;
+
+}
+
+.website-writeup{
+font-family: Krub;
+font-size: 13px;
+font-weight: 500;
+line-height: 24px;
+
+text-align: left;
+
+}
+
+#btn-eplore-more{
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+border: none;
+padding:12px;
+font-family: Krub;
+font-size: 14px;
+font-weight: bold;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+width:150px;
+text-align: center;
+margin-top: 10px;
+
+}
+
+
+/*SECTION 2*/
+
+.section2-container{
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+.section2-content-holder{
+  width: 70%;
+ 
+  display: flex;
+  justify-content: space-between;
+}
+
+.section2-content-holder-left{
+  width: 20%;
+ 
+  padding-top :30px;
+  font-family:Rubik;
+}
+.section2-content-holder-left>h2{
+  font-weight: bold;
+}
+
+.section2-content-holder-right{
+  width: 80%;
+  
+  display:flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.rect-card{
+  width: 50%;
+  gap: 15px;
+  display: flex;
+  padding: 30px;
+}
+
+.rect-card-left{
+  border-right: 2px solid #D8D8D8;
+  padding:10px;
+}
+.rect-card-left>img{
+  width:50px;
+  height: 50px;
+}
+
+.rect-card-right>h3{
+font-family: Rubik;
+font-size: 18px;
+font-weight: bold;
+text-align: left;
+
+}
+
+.rect-card-right>p{
+  font-family: Krub;
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: left;
+  
+  }
+  
+.section3{
+  background: url(../public/background2.svg);
+  height: 250px;
+}
+
+.section4-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+.section4-content-holder{
+     width: 70%;
+     padding: 200px;
+     background-color:white ;
+     margin-top: -100px;
+     padding:40px;
+     display: flex;
+     
+
+}
+
+.sec4-content-left>h2{
+  font-family: Rubik;
+  font-size: 25px;
+  margin-top: 12px;
+  
+}
+
+.sec4-content-left>p{
+  font-family: Krub;
+  font-size: 15px;
+  margin-top: 12px;
+}
+
+ .service-des-holder{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  
+}
+
+
+
+.service-des{
+  display: flex;
+  align-items: center;
+   width: 150px;
+   gap: 8px;
+}
+
+
+.service-des>img{
+width:50px;
+height: 50px;
+
+}
+.service-des>h2{
+  font-family: Rubik;
+  font-size: 15px;
+}
+
+.descriptionimagediv{
+  width:200px;
+  height: 200px;
+}
+
+.descriptionimagediv>img{
+  width:300px;
+  height: 300px;
+  z-index: 1;
+  margin-left :100px;
+}
+
+/* */
+
+.sec4-cotainer2{
+  margin-top: 50px;
+  
+  display: flex;
+  justify-content: center;
+}
+.sec4-con2-contentholder{
+  width:70%;
+  padding: 30px;
+  background-color: white;
+  
+}
+
+
+.service-count{
+  border-top: 2px solid#D4D4D4;
+  border-bottom: 2px solid#D4D4D4;
+  display: flex;
+
+}
+
+.service-count-left{
+  width: 50%;
+  border-right:2px solid#D4D4D4;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.delivery-count-left {
+  width:50%;
+  text-align: right;
+}
+.delivery-count-left>h2{
+   font-family: Rubik;
+   font-weight: bold;
+   font-size: 40px;
+}
+.delivery-count-right{
+  width:50%;
+  display: flex;
+  font-family:League Spartan ;
+  font-size: 15px;
+  align-items: center;
+ 
+  
+}
+
+.delivery-count-right>img{
+  width: 12px;
+  height: 12px;
+  margin: 8px;
+}
+
+.service-count-right{
+  width:50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.satisfied-client-count-left{
+  width:50%;
+  text-align: right;
+  
+}
+.satisfied-client-count-left>h2{
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.satisfied-client-count-right{
+  width:50%;
+  display: flex;
+  font-family:League Spartan ;
+  font-size: 15px;
+  text-align: left;
+  align-items: center;
+
+}
+.satisfied-client-count-right>img{
+  width: 12px;
+  height: 12px;
+  margin: 8px;
+}
+
+/* SECTION 5 */
+.section5-container1{
+  text-align: center;
+  height: 250px;
+  
+}
+
+.section5-container1>h2{
+ font-family: Rubik;
+ font-weight: bold;
+  
+}
+
+.section5-container2{
+  height: 250px;
+  background: linear-gradient(95deg, #FFB629 -1.19%, #FFDA56 57.78%, #FFD7A6 115.08%);
+ display: flex;
+ justify-content: center;
+}
+
+.sec5-container2-content-holder{
+  width: 90%;
+ 
+ 
+  margin-top: -200px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.Card{
+  
+  padding:10px;
+  border: 1px solid brown;
+  height: 407px;
+ width: 320px;
+ position:relative;
+
+
+
+
+}
+.card-heading{
+  font-family: Rubik;
+  font-weight: bold;
+  font-size: 18px;
+  color:white;
+  bottom:10px ;
+  position: absolute;
+  bottom: 40px;
+}
+.card-write-up{
+  font-family: Krub;
+  color: #FFB629;
+  position: absolute;
+  bottom: 20px;
+  ;
+}
