@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b8193e3.css",
+    "main.js": "/static/js/main.b3ba0a03.js",
+    "static/media/background2.svg": "/static/media/background2.14f77def22643e963d3e.svg",
+    "static/media/image4.png": "/static/media/image4.a59892d07426c770a183.png",
+    "static/media/image2.png": "/static/media/image2.2f0071490c42defd7bbb.png",
+    "static/media/image5.png": "/static/media/image5.422c9d0f9ea3d833d388.png",
+    "static/media/image1.png": "/static/media/image1.5b89842358d32284723c.png",
+    "static/media/image3.png": "/static/media/image3.dcf5170530e763e6facf.png",
+    "static/media/servicedescriptionimage.svg": "/static/media/servicedescriptionimage.d0ce00a18404bbfd743545211cce7296.svg",
+    "static/media/background1.svg": "/static/media/background1.6d02c9f491db4feca9e3.svg",
+    "static/media/background3.png": "/static/media/background3.0d69b7f59586009017eb.png",
+    "static/media/localshipping.svg": "/static/media/localshipping.98e31a5cfea0ed464c4aa9c94ae10ecd.svg",
+    "static/media/warehousing.svg": "/static/media/warehousing.682602229a541d9367deb5fc6aaff65c.svg",
+    "static/media/airtransport.svg": "/static/media/airtransport.f811b0014d48e282452bfa5381b34675.svg",
+    "static/media/seatransport.svg": "/static/media/seatransport.bf0ae30326e65a986ad63fbad9dc19ec.svg",
+    "static/media/deliveryicon.svg": "/static/media/deliveryicon.6ca60c1bd7303e7c16cacd14a1a3fa03.svg",
+    "static/media/optimizedtime.svg": "/static/media/optimizedtime.7342f943d95121010776e8d17c300f86.svg",
+    "index.html": "/index.html",
+    "static/media/deliverycounticon.svg": "/static/media/deliverycounticon.dc27dd3a101b1ed2e808a41c5c4d2e64.svg",
+    "main.3b8193e3.css.map": "/static/css/main.3b8193e3.css.map",
+    "main.b3ba0a03.js.map": "/static/js/main.b3ba0a03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b8193e3.css",
+    "static/js/main.b3ba0a03.js"
+  ]
+}
